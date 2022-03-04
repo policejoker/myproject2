@@ -2,11 +2,12 @@ package frank;
 
 public class ScoringNG {
     public static void main(String[] args) {
-        String[] names = {"Jack", "Hank", "Karen", "Elva", "Benny"} ;
-        int[] English = {80,55,34,91,65};
-        int[] Math = {71,99,84,62,11};
+        String[] names = {"jack", "hank", "karen", "elva", "benny"} ;
+        int[] english = {80,55,34,91,65};
+        int[] math = {71,99,84,62,11};
         for  (int i = 0; i < 5;i++){
-        System.out.println(names[i]+" "+English[i]+" "+Math[i]+" "+(English[i]+Math[i])/2);
+            if (i !=3)
+        System.out.println(names[i]+" "+english[i]+" "+math[i]+" "+(english[i]+math[i])/2);
         }
     }
 }
